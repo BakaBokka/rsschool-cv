@@ -1,0 +1,12 @@
+.cv-rigth-side {
+  padding: 0 24px;
+  box-sizing: border-box;
+  color: #3f3f3f;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    129deg,
+    rgba(255, 255, 255, 1) 56%,
+    rgba(47, 125, 71, 0.06486344537815125) 82%
+  );
+  border-radius: 10px;
+}
