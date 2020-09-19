@@ -1,0 +1,13 @@
+.cv-avatar__image {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  transition-duration: 1s;
+}
+
+.cv-avatar__image:hover {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  transform: scale(1.1);
+}

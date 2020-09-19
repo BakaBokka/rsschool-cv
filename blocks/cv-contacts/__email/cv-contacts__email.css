@@ -1,0 +1,11 @@
+.cv-contacts__email {
+  margin: 0 0 10px 0;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.cv-contacts__email::before {
+  content: url("../../../images/letter-ico.svg");
+  margin-right: 16px;
+}
