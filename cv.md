@@ -36,9 +36,9 @@ Service for analyzing events happening in the world. On request displays news fo
 total number of mentions and mentions in the headlines of news articles.
 
 
-* Yandex Practicum "Profession: Frontend Developer", 280 hours
-  freeCodeCamp, Responsive Web Design
-  Stepik, ITC (vk.com/itc.digital), Web-development for newbies: HTML и CSS
+* ***Yandex Practicum***,"Profession: Frontend Developer", 280 hours
+  ***freeCodeCamp***, Responsive Web Design
+  ***Stepik***, ITC (vk.com/itc.digital), Web-development for newbies: HTML и CSS
 
 * English — B2.
   Ok. It's what i've got on the tests.
