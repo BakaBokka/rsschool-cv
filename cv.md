@@ -28,7 +28,7 @@
 Project Mesto — https://bakabokka.github.io/Project-Mesto/
 Interactive page where you an add and delete photos or pictures, and put "likes" on them.
 
-The main functionality: Loading cards from the server, adding a new card, changingthe user profile data, changing the user's avatar, Zoom-in cards, a pop-up window with a list
+The main functionality: Loading cards from the server, adding a new card, changing the user profile data, changing the user's avatar, Zoom-in cards, a pop-up window with a list
 of "likes", Drag&Drop HTML5.
 
 BakaNews — https://bakabokka.github.io/Baka-News/
