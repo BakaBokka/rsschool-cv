@@ -1,0 +1,11 @@
+.cv-contacts__phone {
+  margin: 0 0 10px 0;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.cv-contacts__phone::before {
+  content: url("../../../images/phone-ico.svg");
+  margin-right: 16px;
+}

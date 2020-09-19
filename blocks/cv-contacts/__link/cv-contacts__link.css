@@ -1,0 +1,21 @@
+.cv-contacts__link {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  transition-duration: .7s;
+}
+
+.cv-contacts__link:hover {
+  color: #777676;
+}
+.cv-contacts__link::before {
+  content: "";
+  background-image: url('../../../images/gh-ico.jpg');
+  border-radius: 100%;
+  background-size: cover;
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
+}

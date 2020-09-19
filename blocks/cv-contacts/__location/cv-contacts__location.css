@@ -1,0 +1,11 @@
+.cv-contacts__location {
+  margin: 0 0 10px 0;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.cv-contacts__location::before {
+  content: url("../../../images/location-ico.svg");
+  margin-right: 16px;
+}
