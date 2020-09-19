@@ -25,13 +25,13 @@
   By participating in this program, I've gained additional experience in my key skills, conducted code reviews, and improved my teamwork skills.
 
 ### Training projects:
-Project Mesto — https://bakabokka.github.io/Project-Mesto/
+***Project Mesto*** — https://bakabokka.github.io/Project-Mesto/
 Interactive page where you an add and delete photos or pictures, and put "likes" on them.
 
 The main functionality: Loading cards from the server, adding a new card, changing the user profile data, changing the user's avatar, Zoom-in cards, a pop-up window with a list
 of "likes", Drag&Drop HTML5.
 
-BakaNews — https://bakabokka.github.io/Baka-News/
+***BakaNews*** — https://bakabokka.github.io/Baka-News/
 Service for analyzing events happening in the world. On request displays news for a certain period of time. On a separate page, the Analytics for the request is considered,
 total number of mentions and mentions in the headlines of news articles.
 
