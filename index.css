@@ -1,0 +1,237 @@
+.page {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+
+  line-height: 20px;
+}
+.cv-content {
+  display: flex;
+
+  max-width: 620px;
+  margin: 50px auto;
+  box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.cv-left-side {
+  /* max-width: 250px; */
+  font-weight: 400;
+  background-color: #184431;
+  color: #fff;
+}
+
+.cv-left-side__info {
+  box-sizing: border-box;
+  padding: 33px 24px;
+}
+.cv-photo {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+
+  margin: 0 auto;
+  box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+.cv-photo-wrap {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.cv-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  transition-duration: 1s;
+}
+
+.cv-avatar:hover {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  transform: scale(1.1);
+}
+.cv-contacts {
+  margin-bottom: 24px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.section-title {
+
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 25px 0;
+
+  line-height: 23px;
+  letter-spacing: 0, 1em;
+}
+.cv-contacts__list {
+  list-style: none;
+  padding: 0;
+}
+.cv-contacts__phone {
+  display: flex;
+  height: 24px;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.cv-contacts__phone::before {
+  content: url("./images/phone-ico.svg");
+
+  margin-right: 16px;
+}
+.cv-contacts__email {
+  display: flex;
+  height: 24px;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.cv-contacts__email::before {
+  content: url("./images/letter-ico.svg");
+  margin-right: 16px;
+}
+.cv-contacts__location {
+  display: flex;
+  height: 24px;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.cv-contacts__location::before {
+  content: url("./images/location-ico.svg");
+
+  margin-right: 16px;
+}
+.cv-contacts__item {
+  max-width: fit-content;
+}
+
+.cv-contacts__link {
+  display: flex;
+  height: 24px;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+.cv-contacts__link:hover {
+  color: #777676;
+}
+.cv-contacts__link::before {
+  content: "";
+  background-image: url('./images/gh-ico.jpg');
+  border-radius: 100%;
+  background-size: cover;
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
+}
+
+.cv-skills {
+  margin-bottom: 24px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.cv-skills__list {
+  list-style: none;
+  padding: 0;
+}
+.cv-skills__item {
+  margin: 0 0 5px 0;
+}
+.cv-tools {
+  margin: 0 0 50px 0;
+}
+.cv-tools__list {
+  list-style: none;
+  padding: 0;
+}
+.cv-tools__item {
+  margin: 0 0 5px 0;
+}
+.cv-rigth-side {
+  padding: 0 24px;
+  box-sizing: border-box;
+  color: #3f3f3f;
+  background: rgb(255,255,255);
+background: linear-gradient(129deg, rgba(255,255,255,1) 56%, rgba(47,125,71,0.06486344537815125) 82%);
+border-radius: 10px;
+}
+
+.cv-author {
+  margin: 0 0 64px;
+}
+.cv-author__name {
+  margin: 56px 0 20px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #3f3f3f;
+}
+.cv-author__position {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.cv-exp {
+  margin: 0 0 50px 0;
+}
+.cv-exp__title {
+  color: #3f3f3f;
+}
+
+.cv-exp__company {
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.cv-exp__job {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #4269a3;
+}
+.cv-exp__dates {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #a6a6a6;
+}
+.cv-exp__list {
+  padding: 0 0 0 20px;
+}
+.cv-exp__list-item {
+  margin: 0 0 10px 0;
+}
+.cv-edu {
+  margin: 0 0 50px 0;
+  transition-duration: 1s;
+}
+
+.cv-edu__title {
+  color: #3f3f3f;
+}
+.cv-edu__list {
+  padding: 0 0 0 20px;
+}
+.cv-edu__list-item {
+  margin: 0 0 10px 0;
+}
+.cv-edu__accent {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+}
+
+.cv_copy {
+  margin: 0 auto;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
