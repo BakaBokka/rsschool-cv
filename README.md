@@ -1,7 +1,7 @@
 # rsschool-cv
-Markdown &amp; Git for rsschool
+HTML, CSS & Git Basics   
 
 
 ## Ссылка на github pages:
-https://bakabokka.github.io/rsschool-cv/cv
+https://bakabokka.github.io/rsschool-cv/
 
